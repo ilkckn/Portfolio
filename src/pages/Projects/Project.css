@@ -1,0 +1,38 @@
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 8rem);
+    margin-top: 8rem;
+}
+
+.projectsContainer .projectBoxes .box img {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 5px;
+}
+
+.projectsContainer .projectBoxes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.projectsContainer .projectBoxes .box {
+    width: 30rem;
+    height: 20rem;
+    border-radius: 5px;
+}
+
+.projectsContainer .projectBoxes .box:hover {
+    transform: scale(1.1);
+}
+
+.projectsContainer .projectBoxes .webProjects {
+    display: flex;
+    gap: 2rem;
+}

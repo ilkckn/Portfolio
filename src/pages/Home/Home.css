@@ -1,0 +1,61 @@
+.homeContainer {
+  width: 100%;
+  height: calc(100vh - 1rem);
+  
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.homeContainer .infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.homeContainer .infos .h1-icon {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.homeContainer .infos .h1-icon h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: "Quicksand", sans-serif;
+  text-transform: capitalize;
+  color: rgb(12, 12, 12);
+}
+
+.homeContainer .infos .shortInfo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.homeContainer .infos .shortInfo p {
+  color: rgb(12, 12, 12);
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  width: 40rem;
+}
+
+.homeContainer .infos .shortInfo .pin {
+  color: #ffaf04;
+  font-size: 2rem;
+}
+
+.homeContainer .infos .socialContact {
+  cursor: pointer;
+  display: flex;
+  gap: .5rem;
+}
+
+.homeContainer .infos .socialContact a {
+  color: #ffaf04;
+  font-size: 2rem;
+}
