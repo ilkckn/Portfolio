@@ -34,5 +34,5 @@
 
 .projectsContainer .projectBoxes .webProjects {
     display: flex;
-    gap: 2rem;
+    gap: 2.1rem;
 }
