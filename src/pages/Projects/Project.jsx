@@ -21,7 +21,7 @@ function Project() {
               </div>
               <div className="box">
                 <a href="https://github.com/ilkckn/Jewellery-ECommerce" target="_blank"><img src={project3} alt="" /></a>
-                <h3>Jewellery ECommerce-HTML/Css</h3>
+                <h3>Jewellery ECommerce-HTML & Css</h3>
               </div>
             </div>
           </div>

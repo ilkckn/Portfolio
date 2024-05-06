@@ -6,7 +6,7 @@ import { IoMdPin } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import logo1 from "../../assets/images/logos/javascript-logo.png"
-import logo2 from "../../assets/images/logos/html5-logo.jpg"
+import logo2 from "../../assets/images/logos/html5-logo.png"
 import logo3 from "../../assets/images/logos/css-logo.png"
 import logo4 from "../../assets/images/logos/react-logo.png"
 import logo5 from "../../assets/images/logos/scss-logo.png"
