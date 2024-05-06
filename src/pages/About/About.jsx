@@ -5,7 +5,7 @@ import "./About.css";
 function About() {
   return (
     <div className="aboutContainer" id="about">
-      <img src={avatar2} style={{ width: "25rem" }} />
+      <img src={avatar2}/>
       <div className="aboutInfo">
         <h1>More About Me</h1>
         <p>

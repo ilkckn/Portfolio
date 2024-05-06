@@ -1,11 +1,15 @@
 .aboutContainer {
     width: 100%;
-    height: calc(100vh - 5rem);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
     padding: 0 5rem;
+}
+
+.aboutContainer img {
+    width: 25rem;
 }
 
 .aboutContainer .aboutInfo {
@@ -25,4 +29,58 @@
     font-weight: 600;
     letter-spacing: 1px;
     color: #EAB60B;
+}
+
+@media (max-width: 1450px) {
+    .aboutContainer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 5rem;
+    }
+
+    .aboutContainer img {
+        width: 20rem;
+    }
+
+    .aboutContainer .aboutInfo {
+        width: 30rem;
+    }
+
+    .aboutContainer .aboutInfo p {
+        font-size: 1rem;
+    }
+
+    .aboutContainer .aboutInfo h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1450px) {
+    .aboutContainer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 5rem;
+    }
+
+    .aboutContainer img {
+        width: 20rem;
+    }
+
+    .aboutContainer .aboutInfo {
+        width: 30rem;
+        text-align: center;
+    }
+
+    .aboutContainer .aboutInfo p {
+        font-size: 1rem;
+    }
+
+    .aboutContainer .aboutInfo h1 {
+        font-size: 1.5rem;
+    }
 }

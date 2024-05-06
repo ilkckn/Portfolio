@@ -5,6 +5,11 @@ import avatar from "../../assets/images/avatar.png";
 import { IoMdPin } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import logo1 from "../../assets/images/logos/javascript-logo.png"
+import logo2 from "../../assets/images/logos/html5-logo.jpg"
+import logo3 from "../../assets/images/logos/css-logo.png"
+import logo4 from "../../assets/images/logos/react-logo.png"
+import logo5 from "../../assets/images/logos/scss-logo.png"
 
 function Home() {
   return (
@@ -13,7 +18,7 @@ function Home() {
       <div className="infos">
         <div className="h1-icon">
           <h1>fullstack react developer</h1>
-          <img src={waving} style={{ width: "3.5rem"}} />
+          <img src={waving}/>
         </div>
         <div className="shortInfo">
           <p>Hi, I'm Musa Cekcen. A passionate Front-end React Developer based in Lörrach, Germany</p>
@@ -23,10 +28,20 @@ function Home() {
           <a href="https://www.linkedin.com/in/musacekcen-webdeveloper/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/ilkckn" target="_blank"><FaGithub /></a>
         </div>
+        <div className="techStack">
+          <h3>Tech Stack</h3>
+          <div className="logos">
+            <img className="logo1" src={logo1} alt=""/>
+            <img className="logo2" src={logo2} alt=""/>
+            <img className="logo3" src={logo3} alt="" />
+            <img className="logo4" src={logo4} alt=""/>
+            <img className="logo5" src={logo5} alt=""/>
+          </div>
+        </div>
       </div>
 
       <div className="avatar">
-        <img src={avatar} style={{ width: "24rem"}} /> 
+        <img src={avatar} /> 
       </div>
     </div>
   );

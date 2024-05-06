@@ -9,6 +9,10 @@
   gap: 20rem;
 }
 
+.homeContainer .avatar img {
+  width: 24rem;
+}
+
 .homeContainer .infos {
   display: flex;
   flex-direction: column;
@@ -19,6 +23,10 @@
   display: flex;
   align-items: center;
   gap: 3rem;
+}
+
+.homeContainer .infos img {
+  width: 3.5rem;
 }
 
 .homeContainer .infos .h1-icon h1 {
@@ -53,9 +61,138 @@
   cursor: pointer;
   display: flex;
   gap: .5rem;
+ 
 }
 
 .homeContainer .infos .socialContact a {
   color: #ffaf04;
   font-size: 2rem;
+}
+
+.homeContainer .techStack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  width: 100%;
+}
+
+.homeContainer .techStack h3 {
+  color: rgb(12, 12, 12);
+  font-size: 1.1rem;
+}
+
+.homeContainer .techStack .logos {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.homeContainer .techStack .logos .logo1 {
+  width: 1.8rem;
+}
+
+.homeContainer .techStack .logos .logo2 {
+  width: 2.2rem;
+}
+
+.homeContainer .techStack .logos .logo3 {
+  width: 2rem;
+}
+
+.homeContainer .techStack .logos .logo4 {
+  width: 3.5rem;
+}
+
+.homeContainer .techStack .logos .logo5 {
+  width: 1.8rem;
+}
+
+@media (max-width: 1450px) {
+  .homeContainer {
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .homeContainer .infos .h1-icon h1 {
+    font-size: 2.5rem;
+  }
+
+  .homeContainer .infos img {
+    width: 2.8rem;
+  }
+
+  .homeContainer .infos .shortInfo p {
+    font-size: 1.4rem;
+    width: 35rem;
+  }
+
+  .homeContainer .infos .socialContact a {
+    font-size: 1.8rem;
+  }
+
+  .homeContainer .avatar img {
+    width: 20rem;
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+  .homeContainer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+
+  .homeContainer .infos .h1-icon h1 {
+    font-size: 2rem;
+  }
+
+  .homeContainer .infos img {
+    width: 2.2rem;
+  }
+
+  .homeContainer .infos .shortInfo p {
+    font-size: 1.1rem;
+    width: 30rem;
+  }
+
+  .homeContainer .infos .socialContact a {
+    font-size: 1.5rem;
+  }
+
+  .homeContainer .avatar img {
+    width: 14rem;
+  }
+
+  .homeContainer .techStack {
+    gap: 5rem;
+  }
+
+  .homeContainer .techStack .logos {
+    gap: 2rem;
+  }
+
+  .homeContainer .techStack .logos .logo1 {
+    width: 1.3rem;
+  }
+
+  .homeContainer .techStack .logos .logo2 {
+    width: 1.7rem;
+  }
+  
+  .homeContainer .techStack .logos .logo3 {
+    width: 1.5rem;
+  }
+  
+  .homeContainer .techStack .logos .logo4 {
+    width: 3rem;
+  }
+  
+  .homeContainer .techStack .logos .logo5 {
+    width: 1.3rem;
+  }
+
+
 }

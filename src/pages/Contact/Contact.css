@@ -1,0 +1,62 @@
+.contactContainer {
+    width: 100%;
+    height: calc(100vh - 8rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    padding-left: 5rem;
+}
+
+.contactContainer h1 {
+    font-size: 9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #EAB60B;
+}
+
+.contactContainer .getInTouch {
+    font-size: 1.25rem;
+    width: 50rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contactContainer .email {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactContainer .email p {
+    font-size: .9rem;
+}
+
+.contactContainer .email a {
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #EAB60B;
+}
+
+.contactContainer .onTheInternet {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contactContainer .onTheInternet p {
+    font-size: .9rem;
+}
+
+.contactContainer .onTheInternet .links {
+    display: flex;
+    gap: 1rem;
+}
+
+.contactContainer .onTheInternet .links a {
+    font-size: .8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #EAB60B;
+}
