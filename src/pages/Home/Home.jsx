@@ -10,6 +10,8 @@ import logo2 from "../../assets/images/logos/html5-logo.png"
 import logo3 from "../../assets/images/logos/css-logo.png"
 import logo4 from "../../assets/images/logos/react-logo.png"
 import logo5 from "../../assets/images/logos/scss-logo.png"
+import logo6 from "../../assets/images/logos/mongodb-logo.png"
+import logo7 from "../../assets/images/logos/node-logo.png"
 
 function Home() {
   return (
@@ -36,6 +38,8 @@ function Home() {
             <img className="logo3" src={logo3} alt="" />
             <img className="logo4" src={logo4} alt=""/>
             <img className="logo5" src={logo5} alt=""/>
+            <img className="logo6" src={logo6} alt=""/>
+            <img className="logo7" src={logo7} alt=""/>
           </div>
         </div>
       </div>
