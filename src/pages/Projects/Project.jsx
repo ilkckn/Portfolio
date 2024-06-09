@@ -53,6 +53,78 @@ function Project() {
               <div className="project1">
                 <div className="box">
                   <a
+                    href="https://watche-commerce.onrender.com/"
+                    target="_blank"
+                  >
+                    <img src={project2} alt="project2" />
+                  </a>
+                  <h3>Watch ECommerce-React</h3>
+                </div>
+                <div className="projectInfos">
+                  <h2>Watch Store</h2>
+                  <p>
+                    An online website for its customers, where they can host and
+                    buy different types of watches. If you wish, you can search
+                    for watches by type and apply different filters. It has a
+                    user-friendly interface and a design that does not strain
+                    the eyes.
+                  </p>
+                  <div className="languages">
+                    <div className="language">
+                      <p>react</p>
+                      <p>css</p>
+                    </div>
+                    <div className="sourceCode">
+                      <a
+                        href="https://github.com/ilkckn/WatchE-Commerce.git"
+                        target="_blank"
+                      >
+                        Source Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project1">
+                <div className="box">
+                  <a
+                    href="https://watche-commerce.onrender.com/"
+                    target="_blank"
+                  >
+                    <img src={project2} alt="project2" />
+                  </a>
+                  <h3>Watch ECommerce-React</h3>
+                </div>
+                <div className="projectInfos">
+                  <h2>Watch Store</h2>
+                  <p>
+                    An online website for its customers, where they can host and
+                    buy different types of watches. If you wish, you can search
+                    for watches by type and apply different filters. It has a
+                    user-friendly interface and a design that does not strain
+                    the eyes.
+                  </p>
+                  <div className="languages">
+                    <div className="language">
+                      <p>react</p>
+                      <p>css</p>
+                    </div>
+                    <div className="sourceCode">
+                      <a
+                        href="https://github.com/ilkckn/WatchE-Commerce.git"
+                        target="_blank"
+                      >
+                        Source Code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="project1">
+                <div className="box">
+                  <a
                     href="https://ilkckn.github.io/Jewellery-ECommerce/"
                     target="_blank"
                   >
@@ -61,7 +133,7 @@ function Project() {
                   <h3>Jewellery ECommerce-HTML & Css</h3>
                 </div>
                 <div className="projectInfos">
-                  <h2>Watch Store</h2>
+                  <h2>Jewellery Store</h2>
                   <p>
                     An online website for its customers, where they can host and
                     buy different types of jewellery. A compact and elegant

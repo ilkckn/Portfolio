@@ -19,7 +19,7 @@ function Home() {
 
       <div className="infos">
         <div className="h1-icon">
-          <h1>fullstack react developer</h1>
+          <h1>front-end react developer</h1>
           <img src={waving}/>
         </div>
         <div className="shortInfo">

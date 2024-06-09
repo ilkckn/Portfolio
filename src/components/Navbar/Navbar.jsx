@@ -17,11 +17,13 @@ function Navbar() {
             duration={600}>Home</Link></li>
           <li><Link to="about" className='link' activeClass="active" spy={true} smooth={true} offset={-50}
             duration={600}>About Me</Link></li>
+            <li><Link to="contact" className='link' activeClass="active" spy={true} smooth={true} offset={-50}
+            duration={600}>Contact</Link></li>
           <li><Link to="projects" className='link' activeClass="active" spy={true} smooth={true} offset={-50}
             duration={600}>Projects</Link></li>
-          <li><Link to="contact" className='link' activeClass="active" spy={true} smooth={true} offset={-50}
-            duration={600}>Contact</Link></li>
         </ul>
+
+         
         
       </div>
     </>

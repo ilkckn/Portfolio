@@ -16,8 +16,8 @@ function Contact() {
       <div className="onTheInternet">
         <p>On the internet:</p>
         <div className="links">
-          <a href="">LinkedIn</a>
-          <a href="">Github</a>
+          <a href="https://www.linkedin.com/in/musacekcen-webdeveloper/">LinkedIn</a>
+          <a href="https://github.com/ilkckn?tab=overview&from=2024-05-01&to=2024-05-23">Github</a>
         </div>
       </div>
     </div>

@@ -1,16 +1,15 @@
 .homeContainer {
   width: 100%;
-  height: calc(100vh - 1rem);
-  
+  height: 100vh;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20rem;
+  gap: 16rem;
 }
 
 .homeContainer .avatar img {
-  width: 24rem;
+  width: 25rem;
 }
 
 .homeContainer .infos {
@@ -26,13 +25,13 @@
 }
 
 .homeContainer .infos img {
-  width: 3.5rem;
+  width: 5rem;
 }
 
 .homeContainer .infos .h1-icon h1 {
-  font-size: 3rem;
+  font-size: 4.2rem;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   font-family: "Quicksand", sans-serif;
   text-transform: capitalize;
   color: rgb(12, 12, 12);
@@ -41,111 +40,84 @@
 .homeContainer .infos .shortInfo {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .homeContainer .infos .shortInfo p {
   color: rgb(12, 12, 12);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1.8rem;
-  width: 40rem;
+  line-height: 2.2rem;
+  width: 50rem;
 }
 
 .homeContainer .infos .shortInfo .pin {
   color: #ffaf04;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .homeContainer .infos .socialContact {
-  cursor: pointer;
   display: flex;
-  gap: .5rem;
- 
+  gap: 1rem;
+  width: 6rem;
 }
 
 .homeContainer .infos .socialContact a {
   color: #ffaf04;
-  font-size: 2rem;
+  font-size: 3rem;
+  cursor: pointer;
 }
 
 .homeContainer .techStack {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  gap: 10rem;
+  margin-top: 2rem;
+  gap: 7rem;
   width: 100%;
 }
 
 .homeContainer .techStack h3 {
   color: rgb(12, 12, 12);
-  font-size: 1.1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .homeContainer .techStack .logos {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .homeContainer .techStack .logos .logo1 {
-  width: 1.8rem;
+  width: 2.5rem;
 }
 
 .homeContainer .techStack .logos .logo2 {
-  width: 2.2rem;
-}
-
-.homeContainer .techStack .logos .logo3 {
-  width: 2rem;
-}
-
-.homeContainer .techStack .logos .logo4 {
-  width: 3.5rem;
-}
-
-.homeContainer .techStack .logos .logo5 {
-  width: 1.8rem;
-}
-
-.homeContainer .techStack .logos .logo6 {
   width: 3rem;
 }
 
+.homeContainer .techStack .logos .logo3 {
+  width: 2.7rem;
+}
+
+.homeContainer .techStack .logos .logo4 {
+  width: 5.3rem;
+}
+
+.homeContainer .techStack .logos .logo5 {
+  width: 2.5rem;
+}
+
+.homeContainer .techStack .logos .logo6 {
+  width: 4.7rem;
+}
+
 .homeContainer .techStack .logos .logo7 {
-  width: 2.2rem;
+  width: 3rem;
 }
 
-
-@media (max-width: 1450px) {
-  .homeContainer {
-    justify-content: center;
-    gap: 5rem;
-  }
-
-  .homeContainer .infos .h1-icon h1 {
-    font-size: 2.5rem;
-  }
-
-  .homeContainer .infos img {
-    width: 2.8rem;
-  }
-
-  .homeContainer .infos .shortInfo p {
-    font-size: 1.4rem;
-    width: 35rem;
-  }
-
-  .homeContainer .infos .socialContact a {
-    font-size: 1.8rem;
-  }
-
-  .homeContainer .avatar img {
-    width: 20rem;
-  }
-
-
-}
 
 @media (max-width: 1200px) {
   .homeContainer {
@@ -155,24 +127,24 @@
   }
 
   .homeContainer .infos .h1-icon h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .homeContainer .infos img {
-    width: 2.2rem;
+    width: 5rem;
   }
 
   .homeContainer .infos .shortInfo p {
-    font-size: 1.1rem;
-    width: 30rem;
+    font-size: 1.6rem;
+    width: 47rem;
   }
 
   .homeContainer .infos .socialContact a {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
 
   .homeContainer .avatar img {
-    width: 14rem;
+    width: 20rem;
   }
 
   .homeContainer .techStack {
@@ -184,24 +156,161 @@
   }
 
   .homeContainer .techStack .logos .logo1 {
-    width: 1.3rem;
+    width: 2.2rem;
   }
 
   .homeContainer .techStack .logos .logo2 {
-    width: 1.7rem;
+    width: 2.6rem;
   }
   
   .homeContainer .techStack .logos .logo3 {
-    width: 1.5rem;
+    width: 2.4rem;
   }
   
   .homeContainer .techStack .logos .logo4 {
-    width: 3rem;
+    width: 4.5rem;
   }
   
   .homeContainer .techStack .logos .logo5 {
-    width: 1.3rem;
+    width: 2.2rem;
   }
 
+  .homeContainer .techStack .logos .logo6 {
+    width: 3.8rem;
+  }
+  
+  .homeContainer .techStack .logos .logo7 {
+    width: 2.6rem;
+  }
 
+}
+
+@media (max-width: 700px) {
+  .homeContainer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+
+  .homeContainer .infos .h1-icon h1 {
+    font-size: 3rem;
+  }
+
+  .homeContainer .infos img {
+    width: 3.5rem;
+  }
+
+  .homeContainer .infos .shortInfo p {
+    font-size: 1.5rem;
+    width: 45rem;
+  }
+
+  .homeContainer .infos .socialContact a {
+    font-size: 2.3rem;
+  }
+
+  .homeContainer .avatar img {
+    width: 20rem;
+  }
+
+  .homeContainer .techStack {
+    gap: 5rem;
+  }
+
+  .homeContainer .techStack .logos {
+    gap: 2rem;
+  }
+
+  .homeContainer .techStack .logos .logo1 {
+    width: 2.2rem;
+  }
+
+  .homeContainer .techStack .logos .logo2 {
+    width: 2.6rem;
+  }
+  
+  .homeContainer .techStack .logos .logo3 {
+    width: 2.4rem;
+  }
+  
+  .homeContainer .techStack .logos .logo4 {
+    width: 4.5rem;
+  }
+  
+  .homeContainer .techStack .logos .logo5 {
+    width: 2.2rem;
+  }
+
+  .homeContainer .techStack .logos .logo6 {
+    width: 3.8rem;
+  }
+  
+  .homeContainer .techStack .logos .logo7 {
+    width: 2.6rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .homeContainer {
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+
+  .homeContainer .infos .h1-icon h1 {
+    font-size: 2.6rem;
+  }
+
+  .homeContainer .infos img {
+    width: 3rem;
+  }
+
+  .homeContainer .infos .shortInfo p {
+    font-size: 1.4rem;
+    width: 36rem;
+  }
+
+  .homeContainer .infos .socialContact a {
+    font-size: 2rem;
+  }
+
+  .homeContainer .avatar img {
+    width: 17rem;
+  }
+
+  .homeContainer .techStack {
+    gap: 5rem;
+  }
+
+  .homeContainer .techStack .logos {
+    gap: 1rem;
+  }
+
+  .homeContainer .techStack .logos .logo1 {
+    width: 2rem;
+  }
+
+  .homeContainer .techStack .logos .logo2 {
+    width: 2.4rem;
+  }
+  
+  .homeContainer .techStack .logos .logo3 {
+    width: 2.2rem;
+  }
+  
+  .homeContainer .techStack .logos .logo4 {
+    width: 4.3rem;
+  }
+  
+  .homeContainer .techStack .logos .logo5 {
+    width: 2rem;
+  }
+
+  .homeContainer .techStack .logos .logo6 {
+    width: 3.6rem;
+  }
+  
+  .homeContainer .techStack .logos .logo7 {
+    width: 2.4rem;
+  }
 }
