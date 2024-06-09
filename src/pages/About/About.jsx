@@ -5,18 +5,19 @@ import "./About.css";
 function About() {
   return (
     <div className="aboutContainer" id="about">
-      <img src={avatar2}/>
+      <img src={avatar2} />
       <div className="aboutInfo">
         <h1>More About Me</h1>
         <p>
-          My objective is to pursue a career in engineering, commencing at
-          university as a web developer. I am keen to develop my design skills
-          andprogress in line with the relevant guidance. I have received
-          training in web development and design. I have spent one year studying
-          UI design and am currently undertaking a 1.5-year web development
-          course. I am a highly motivated, friendly, empathetic and determined
-          individual. I am passionate about design and development. I derive
-          great pleasure from exploring colour and design concepts.
+          "Expressing my aim to pursue a career in engineering, I plan to begin
+          my journey at university by specializing in web development. Focusing
+          on the enhancement of design skills and aligning with relevant
+          guidance is crucial to me. Equipped with training in web development
+          and design, I dedicated a year to studying UI design and am currently
+          enrolled in a 1.5-year web development course. Known for being highly
+          motivated, friendly, empathetic, and determined, my passion lies in
+          both design and development. Exploring color and design concepts
+          brings me great pleasure."
         </p>
       </div>
     </div>
